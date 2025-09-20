@@ -103,3 +103,25 @@ npm run dev
 index.html --> main.jsx -->app.jsx [output]
 
 JSX
+
+Default app.jsx
+custom component:
+react js 
+2 type of component we can create:
+
+1)function based component : 16.8
+2)class bases component :
+
+js --> using funciton keyword
+   --> arrow function
+component name must starts with cap
+
+vs ext --> component
+
+20-09-2025
+
+src -->new folder components --> new file -- Header.jsx -- >rafc
+import header in app.js
+
+Footer.jsx -->
+Content.jsx: -->
