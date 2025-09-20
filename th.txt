@@ -125,3 +125,11 @@ import header in app.js
 
 Footer.jsx -->
 Content.jsx: -->
+
+stylling in react js:
+inline :
+ext:
+
+------------------------
+
+src--assets/css -- create file header.css
