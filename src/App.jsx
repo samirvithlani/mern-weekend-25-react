@@ -7,6 +7,8 @@ import { Content } from './components/Content'
 import { MapDemo1 } from './components/MapDemo1'
 import { MapDemo2 } from './components/MapDemo2'
 import { MapDemo3 } from './components/MapDemo3'
+import { MapDemo4 } from './components/MapDemo4'
+import { Mapdemo5 } from './components/Mapdemo5'
 //import './App.css'
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <MapDemo3></MapDemo3>
+      <Mapdemo5></Mapdemo5>
       <Footer></Footer>
     </div>
   )
