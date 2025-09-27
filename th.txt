@@ -133,3 +133,19 @@ ext:
 ------------------------
 
 src--assets/css -- create file header.css
+
+lifecycle:
+hooks: built in funciton,udf,third party
+     : use word 
+     : component life cycle:
+     : mount --> unmount:
+
+useState: to maintain state variable in react js component we can use...
+
+RESERECH ON VDOM: document
+
+
+BOM: browser object model
+DOM : document object model
+Virtual Dom : vdom
+vdom is light weighed copy of real dom:
