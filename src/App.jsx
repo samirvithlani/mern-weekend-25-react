@@ -15,6 +15,7 @@ import { UseSatteDemo3 } from './components/UseSatteDemo3'
 import { UseStateDemo3 } from './components/UseStateDemo3'
 import { InputDemo1 } from './components/InputDemo1'
 import { InputDemo2 } from './components/InputDemo2'
+import { InputDemo3 } from './components/InputDemo3'
 //import './App.css'
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <InputDemo2></InputDemo2>
+      {/* <InputDemo2></InputDemo2> */}
+      <InputDemo3></InputDemo3>
       <Footer></Footer>
     </div>
   )
