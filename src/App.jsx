@@ -14,6 +14,7 @@ import { UseStateDemo2 } from './components/UseStateDemo2'
 import { UseSatteDemo3 } from './components/UseSatteDemo3'
 import { UseStateDemo3 } from './components/UseStateDemo3'
 import { InputDemo1 } from './components/InputDemo1'
+import { InputDemo2 } from './components/InputDemo2'
 //import './App.css'
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <InputDemo1></InputDemo1>
+      <InputDemo2></InputDemo2>
       <Footer></Footer>
     </div>
   )
