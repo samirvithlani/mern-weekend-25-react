@@ -149,3 +149,19 @@ BOM: browser object model
 DOM : document object model
 Virtual Dom : vdom
 vdom is light weighed copy of real dom:
+
+onInput
+onKeyPress
+onKeyUp
+onKeyDown
+onChange
+
+HTML -- >event --->event gen -->javascript
+
+
+
+html
+<p id=text>
+
+jsdocument.get("ytexy")
+inn...
