@@ -165,3 +165,33 @@ html
 
 jsdocument.get("ytexy")
 inn...
+
+HTML --> js
+aboutus.html
+
+<a href ="./anoutus.html>
+
+SINGLE PAGE APPLICATION : index.html
+
+React Routing:
+components: URL -->
+<BrowserRouter> react application : routing enable...:main.jsx
+<Routes> : it define routes in component
+<Route> : it will create single route for compo..
+
+3rd party package install:
+react-router-dom
+local :-->not found -->npm.js
+
+npm i react-router
+
+npm i react-router- 7.x
+
+3 comoon
+netlixHome..movies and shows
+\
+PAGE MUST NOT REFRESH in Single page app
+<a href ="" > --> <Link to="">
+<Link> react-router-dom
+
+Navbar..

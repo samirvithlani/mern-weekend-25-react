@@ -16,6 +16,11 @@ import { UseStateDemo3 } from './components/UseStateDemo3'
 import { InputDemo1 } from './components/InputDemo1'
 import { InputDemo2 } from './components/InputDemo2'
 import { InputDemo3 } from './components/InputDemo3'
+import { Route, Routes } from 'react-router-dom'
+import { NetflixHome } from './netflix/NetflixHome'
+import { NetflixMovies } from './netflix/NetflixMovies'
+import { NetflixShows } from './netflix/NetflixShows'
+import { Navbar } from './components/Navbar'
 //import './App.css'
 
 function App() {
@@ -24,10 +29,12 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
-      {/* <InputDemo2></InputDemo2> */}
-      <InputDemo3></InputDemo3>
-      <Footer></Footer>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path='/netflixhome' element = {<NetflixHome/>}></Route>
+        <Route path='/netflixmovies' element ={<NetflixMovies/>}></Route>
+        <Route path='/netflixshows' element = {<NetflixShows/>}></Route>
+      </Routes>
     </div>
   )
 }
