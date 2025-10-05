@@ -24,21 +24,27 @@ import { Navbar } from './components/Navbar'
 import { Error404 } from './components/Error404'
 import { HomeComponent } from './components/HomeComponent'
 import { Watch } from './netflix/Watch'
+import { Users } from './components/Users'
 //import './App.css'
 
 function App() {
 
+  var title = "React"
 
-
+  //title = {title}
+  //key = {value}
+  //key can be any
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar title = {title}></Navbar>
+
       <Routes>
         <Route path='/' element = {<HomeComponent/>}></Route>
         <Route path='/netflixhome' element = {<NetflixHome/>}></Route>
         <Route path='/netflixmovies' element ={<NetflixMovies/>}></Route>
         <Route path='/netflixshows' element = {<NetflixShows/>}></Route>
         <Route path='/watch/:name' element = {<Watch/>}></Route>
+        <Route path='/users' element = {<Users/>}></Route>
         <Route path='/*' element = {<Error404/>}></Route>
       </Routes>
     </div>

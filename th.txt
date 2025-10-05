@@ -194,5 +194,23 @@ netlixHome..movies and shows
 PAGE MUST NOT REFRESH in Single page app
 <a href ="" > --> <Link to="">
 <Link> react-router-dom
-
 Navbar..
+
+communication bw component:
+1comp -->2comp
+3 ways to send data bw
+
+1)props : parent -->child - -- > child*  a -->b -->[c]
+2)context : parent -->child ->child -->child
+3)redux   : no need of parent child relation
+
+
+Props: property:
+1)props is object
+1)props is immutable object
+
+parent- -->child
+
+
+<h1>
+<h1 id=""> attribute

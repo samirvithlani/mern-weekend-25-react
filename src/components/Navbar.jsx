@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+//props -->property -->it can be any
+export const Navbar = (props) => {
+  console.log("navbar props",props)
   return (
     <div>
+      {props.title}
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
           Navbar
@@ -35,6 +38,11 @@ export const Navbar = () => {
             <li class="nav-item">
               <Link class="nav-link" to="/netflixmovies">
                 NETFLIX MOVIES
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/users">
+                USERS
               </Link>
             </li>
           </ul>
