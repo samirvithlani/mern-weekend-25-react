@@ -185,7 +185,8 @@ local :-->not found -->npm.js
 
 npm i react-router
 
-npm i react-router- 7.x
+npm i react-router-dom
+ 
 
 3 comoon
 netlixHome..movies and shows
