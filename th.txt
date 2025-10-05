@@ -214,3 +214,32 @@ parent- -->child
 
 <h1>
 <h1 id=""> attribute
+
+
+TASK:
+create component names Employee.jsx
+Employee -->will have one employees array [{},{}] -- id name .....
+EmployeeList.jsx -->
+pass employees array as prop from parent to child [Employee -->EmployeeList]
+in EMployeeList com
+print array in table fmt
+
+Task2
+Creare Component Students --> create an array of students inside this pass as props in StudentList
+print table in child componet
+extra: 
+
+create info function in student component[parent]--pass that to child[studentList]
+
+create button in loop[map] named info
+
+call that info funcion from loop only and pass id in param...
+
+const info =(id)=>{
+
+   alert(id)
+}
+
+id name .... action
+              info
+              info
