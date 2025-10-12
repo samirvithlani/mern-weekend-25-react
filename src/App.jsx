@@ -25,6 +25,7 @@ import { Error404 } from './components/Error404'
 import { HomeComponent } from './components/HomeComponent'
 import { Watch } from './netflix/Watch'
 import { Users } from './components/Users'
+import { Books } from './components/Books'
 //import './App.css'
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path='/watch/:name' element = {<Watch/>}></Route>
         <Route path='/users' element = {<Users/>}></Route>
         <Route path='/*' element = {<Error404/>}></Route>
+        <Route path='/books' element = {<Books/>}></Route>
       </Routes>
     </div>
   )
