@@ -249,3 +249,11 @@ useState([]) //array
 useState({})
 useState(0)
 useState(false)
+
+Reusbale button
+common -->folder
+ -->MyButton
+     return <button>
+
+
+homecomp --<=> <MyButton class name fun>
