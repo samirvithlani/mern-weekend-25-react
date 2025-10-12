@@ -15,7 +15,7 @@ export const TableImpl = () => {
   return (
     <div style={{textAlign:"center"}}>
         <h1>TABLE IMPLEMENTATION</h1>
-        <MyTable header = {Object.keys(books[0])}></MyTable>
+        <MyTable header = {Object.keys(books[0])} data={books}></MyTable>
     </div>
   )
 }

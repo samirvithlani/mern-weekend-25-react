@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const MyTable = (props) => {
-  //{header:[]}
+  //{header:[],data:[]}
   return (
     <table className='table table-dark'>
       <thead>
