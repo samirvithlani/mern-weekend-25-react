@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { MyButton } from '../common/MyButton'
 
 export const NetflixMovies = () => {
   return (
     <div style={{textAlign:"center"}}>
       <h1>MOVIES</h1>
+      <MyButton name="btn 3"></MyButton>
       <ul>
         <li>
           <Link to="/watch/raid">Raid</Link>

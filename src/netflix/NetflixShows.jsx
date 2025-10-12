@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { MyButton } from '../common/MyButton'
 
 export const NetflixShows = () => {
 
@@ -25,10 +26,14 @@ export const NetflixShows = () => {
       name:"mirzapur"
     }
   ]
+  const netflixshowsTest=()=>{
+    alert("shows called..")
+  }
 
   return (
     <div style={{textAlign:"center"}}>
       <h1>SHOWS</h1>
+      <MyButton fun = {netflixshowsTest} name="btn 2"></MyButton>
       <ul>
         {
           shows.map((show)=>{
