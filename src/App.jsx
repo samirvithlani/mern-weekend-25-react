@@ -27,6 +27,7 @@ import { Watch } from './netflix/Watch'
 import { Users } from './components/Users'
 import { Books } from './components/Books'
 import { TableImpl } from './components/TableImpl'
+import { FormDemo1 } from './forms/FormDemo1'
 //import './App.css'
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path='/*' element = {<Error404/>}></Route>
         <Route path='/books' element = {<Books/>}></Route>
         <Route path='/tableimpl' element = {<TableImpl/>}></Route>
+        <Route path='/formdemo1' element = {<FormDemo1/>}></Route>
       </Routes>
     </div>
   )

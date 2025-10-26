@@ -254,6 +254,13 @@ Reusbale button
 common -->folder
  -->MyButton
      return <button>
-
-
 homecomp --<=> <MyButton class name fun>
+
+
+create 1 component  named Item.jsx -->decalre 1 useState of items array
+and itrate using map in table fmt..
+item is having fileds like id name price qty avaialble(boolean)
+register in router -->and navbar 
+
+FORM HANDLING:
+npm i react-hook-form
