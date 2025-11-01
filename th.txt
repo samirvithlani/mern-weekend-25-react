@@ -297,4 +297,16 @@ handleSubmit =(cb)=>{
 
 
 optional operator : ?.
+{
+   required:{
+      value:true,
+      message:"name is required"
+      }
+}
 
+{
+            required:{
+                value:true,
+                message:"name is required"
+            }
+}
