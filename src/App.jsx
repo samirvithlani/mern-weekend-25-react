@@ -28,6 +28,8 @@ import { Users } from './components/Users'
 import { Books } from './components/Books'
 import { TableImpl } from './components/TableImpl'
 import { FormDemo1 } from './forms/FormDemo1'
+import { FormDemo2 } from './forms/FormDemo2'
+import { FormDemo3 } from './forms/FormDemo3'
 //import './App.css'
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
         <Route path='/books' element = {<Books/>}></Route>
         <Route path='/tableimpl' element = {<TableImpl/>}></Route>
         <Route path='/formdemo1' element = {<FormDemo1/>}></Route>
+        <Route path='/formdemo2' element = {<FormDemo2/>}></Route>
+        <Route path='/formdemo3' element = {<FormDemo3/>}></Route>
       </Routes>
     </div>
   )

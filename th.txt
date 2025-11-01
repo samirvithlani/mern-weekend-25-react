@@ -264,3 +264,37 @@ register in router -->and navbar
 
 FORM HANDLING:
 npm i react-hook-form
+
+
+create 1 cpmpionent named FormDemo2
+
+take fileds 
+firstname
+lastname
+email
+age
+gender radio button -->male and female both input register name shoudl be same.. value ="male"
+hobbies ---> all checkbox register name must be same 
+
+
+
+npm i react-hook-form : useForm()
+
+handleSubmit =(cb)=>{
+
+   name:onInout event -->
+   email
+   age...
+
+   var obj = {
+      name:name..
+   }
+
+   cb(obj)
+
+
+}
+
+
+optional operator : ?.
+
