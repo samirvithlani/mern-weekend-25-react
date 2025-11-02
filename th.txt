@@ -324,3 +324,10 @@ validate: function:
 
 
 50 ref code...
+
+
+task:
+checkbox: required:
+min 2 checkbox select
+
+validation mode:
