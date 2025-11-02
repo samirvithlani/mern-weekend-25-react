@@ -310,3 +310,17 @@ optional operator : ?.
                 message:"name is required"
             }
 }
+required :
+min:
+max:
+minLength
+maxLength
+pattern : regex: 
+        : password secure: Aa1#sjsla : pattern
+        : email : samir@gmail.com
+        : mobile number: indian 10 digits : 0000000000,4321098768,[6,7,8,9][9]  
+validate: function:
+        : inq code:
+
+
+50 ref code...
