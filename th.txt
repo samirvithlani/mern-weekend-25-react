@@ -331,3 +331,65 @@ checkbox: required:
 min 2 checkbox select
 
 validation mode:
+
+
+-------------------------------------------------------------------------------------
+MERN:
+MONGO database
+E express
+React
+node
+
+-----------------------------------------------------
+Database connection --> react does not provide it..
+
+frontend framework
+backend data -->[spring,node,django,laravel............]
+
+React + Java -->Object -> react java[obj]-->
+
+China -->  [Translator]   <- hindi,english
+           [Genric]
+
+
+Conept API : application programming interface: - URL
+
+API --> tech --> URL --> tech 
+Google Ahm.. we... - satt ---> data -->API
+
+As react developer [fe] -> api consumer
+as bakcend dev [] --->api producers
+
+operation:
+ADD
+UPDATE
+DELETE
+GET
+
+backend dev --api produce ---> url specific protocolo [request method]
+
+GET API --data expose --> print display
+POST API  -->data fetch --> send
+DELETE API
+PUT API
+
+DATA TYPE: json ->
+
+javascript : fetch() function.... limited func....
+axios package:
+-------------------------------------------------
+
+API DATA --> at a time data * --> might you get data bit late..
+             : Promise:if data recieved promise resolve else reject
+            
+            then catch --> async await--->
+
+
+frontend dev :--> backend --> document
+
+zomato: map -- google map ->map api -->documnation:
+
+
+---------------------------------------------
+npm i axios
+
