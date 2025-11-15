@@ -1,7 +1,10 @@
 import axios from 'axios'
-import React from 'react'
+import React, { useState } from 'react'
 
 export const ApiDemo1 = () => {
+
+    const [message, setmessage] = useState("")
+    const [users, setusers] = useState([])
 
     const getUsers = async()=>{
 
@@ -13,13 +16,16 @@ export const ApiDemo1 = () => {
         console.log("api response...",res.data)
         console.log("api response message variable..",res.data.message)
         console.log("api  response data variable",res.data.data)
-
+        setmessage(res.data.message)
+        setusers(res.data.data)
+        //table formate..
 
     }
   return (
     <div style={{textAlign:"center"}}>
         <h1>API DEMO 1</h1>
         <button onClick={getUsers}>GET</button>
+        {message}
     </div>
   )
 }

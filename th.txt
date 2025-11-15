@@ -393,3 +393,11 @@ zomato: map -- google map ->map api -->documnation:
 ---------------------------------------------
 npm i axios
 
+
+print table in apidemo1 
+
+create component apidemo2 
+
+call this url
+https://dummyjson.com/comments
+print all data in table fmt
