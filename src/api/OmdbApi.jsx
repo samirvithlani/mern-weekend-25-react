@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import "../assets/css/movieCard.css"
+import { Link } from "react-router-dom";
 export const OmdbApi = () => {
   const [moveis, setmoveis] = useState([]);
   const [query, setquery] = useState("");
@@ -61,11 +62,13 @@ export const OmdbApi = () => {
             return (
               <div  className="col-12 col-sm-6 col-md-4">
                 <div className="card h-100">
+                    <Link to={`/moviedetail/${movie.imdbID}`}>
                   <img
                     src={movie.Poster}
                     className="card-img-top card-image"
                     alt={movie.Title}
                   />
+                  </Link>
                   <div className="card-body d-flex flex-column">
                     <h5 className="card-title">{movie.Title}</h5>
 

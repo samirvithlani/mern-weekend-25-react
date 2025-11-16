@@ -37,6 +37,7 @@ import { FormDemo7 } from './forms/FormDemo7'
 import { ApiDemo1 } from './api/ApiDemo1'
 import { ApiDemo2 } from './api/ApiDemo2'
 import { OmdbApi } from './api/OmdbApi'
+import { MovieDetail } from './api/MovieDetail'
 //import './App.css'
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
         <Route path ="/apidemo1" element = {<ApiDemo1/>}></Route>
         <Route path='/apidemo2' element = {<ApiDemo2/>}></Route>
         <Route path='/searchmovie' element ={<OmdbApi/>}></Route>
+        <Route path='/moviedetail/:id' element ={<MovieDetail/>}></Route>
       </Routes>
     </div>
   )
