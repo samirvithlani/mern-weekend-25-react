@@ -401,3 +401,17 @@ create component apidemo2
 call this url
 https://dummyjson.com/comments
 print all data in table fmt
+
+create 1 component
+create form for fileds
+ {
+      
+      "name": "shyam1",
+      "email": "shyam@gmail.com",
+      "password": "$2b$10$Vg/5rUR1W/GQU5BPm618O.VjS5f6JFZZHEHdWhKaY8Gd9ZNg/32L2",
+      "age": 23,
+      "isActive": true,
+      
+    },
+
+submitHandler call post api and pass data in 2nd param
