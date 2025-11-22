@@ -39,6 +39,7 @@ import { ApiDemo2 } from './api/ApiDemo2'
 import { OmdbApi } from './api/OmdbApi'
 import { MovieDetail } from './api/MovieDetail'
 import { ApiDemo3 } from './api/ApiDemo3'
+import { ApiDemo4 } from './api/ApiDemo4'
 //import './App.css'
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
         <Route path ="/apidemo1" element = {<ApiDemo1/>}></Route>
         <Route path='/apidemo2' element = {<ApiDemo2/>}></Route>
         <Route path='/apidemo3' element = {<ApiDemo3/>}></Route>
+        <Route path='/apidemo4' element = {<ApiDemo4/>}></Route>
         <Route path='/searchmovie' element ={<OmdbApi/>}></Route>
         <Route path='/moviedetail/:id' element ={<MovieDetail/>}></Route>
       </Routes>

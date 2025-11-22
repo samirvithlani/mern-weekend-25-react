@@ -13,6 +13,8 @@ export const ApiDemo3 = () => {
             password:"amit123",
             isActive:true
         }
+
+        //{name: 'ajay', email: 'ajay@gmail.com', password: 'ajay123', age: '23', isActive: 'true'}
         try{
         const res = await axios.post("https://node5.onrender.com/user/user",userObj)
         console.log(res.data) // api response..
