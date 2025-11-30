@@ -41,6 +41,7 @@ import { MovieDetail } from './api/MovieDetail'
 import { ApiDemo3 } from './api/ApiDemo3'
 import { ApiDemo4 } from './api/ApiDemo4'
 import { UpdateUser } from './api/UpdateUser'
+import { UseEffectDemo1 } from './components/UseEffectDemo1'
 //import './App.css'
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
         <Route path='/apidemo3' element = {<ApiDemo3/>}></Route>
         <Route path='/apidemo4' element = {<ApiDemo4/>}></Route>
         <Route path='/updateUser/:id' element = {<UpdateUser/>}></Route>
+        <Route path='/useeffectdemo' element = {<UseEffectDemo1/>}></Route>
         <Route path='/searchmovie' element ={<OmdbApi/>}></Route>
         <Route path='/moviedetail/:id' element ={<MovieDetail/>}></Route>
       </Routes>

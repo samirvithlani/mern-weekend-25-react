@@ -419,4 +419,11 @@ submitHandler call post api and pass data in 2nd param
 
 update -->button click -->componet -->form display [old data -->get api] -->edit --> submit ->
 
+component lifecycle hook
 
+useEffect()
+useEffect(()=>{},[])
+()=>{} function
+[] -->depednacy array
+
+to handle side effect in recat componsntr we will use useEffect

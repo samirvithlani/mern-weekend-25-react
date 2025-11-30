@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export const ApiDemo1 = () => {
@@ -36,10 +36,14 @@ export const ApiDemo1 = () => {
         getUsers()
       }
     }
+    useEffect(()=>{
+      getUsers()
+    },[])
+    //[] if you forgot to pass bloack it will go infinite..
   return (
     <div style={{textAlign:"center"}}>
         <h1>API DEMO 1</h1>
-        <button onClick={getUsers}>GET</button>
+        {/* <button onClick={getUsers}>GET</button> */}
         <table className='table table-dark'>
           <thead>
             <tr>

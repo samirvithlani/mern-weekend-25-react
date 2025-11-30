@@ -98,6 +98,8 @@ export const Navbar = (props) => {
               </Link>
             </li>
             
+            
+            
             <li class="nav-item">
               <Link class="nav-link" to="/searchmovie">
                 searchmovie
@@ -111,6 +113,12 @@ export const Navbar = (props) => {
             <li class="nav-item">
               <Link class="nav-link" to="/apidemo4">
                 API DEMO 4
+              </Link>
+            </li>
+
+            <li class="nav-item">
+              <Link class="nav-link" to="/useeffectdemo">
+                useeffectdemo
               </Link>
             </li>
             
