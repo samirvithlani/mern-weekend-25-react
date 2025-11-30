@@ -415,3 +415,8 @@ create form for fileds
     },
 
 submitHandler call post api and pass data in 2nd param
+
+
+update -->button click -->componet -->form display [old data -->get api] -->edit --> submit ->
+
+
