@@ -7,10 +7,10 @@ export const ApiDemo3 = () => {
 
         //post(url,{req.body})
         const userObj = {
-            name:"amit",
+            name:"raj",
             age:23,
-            email:"amit2@gmail.com",
-            password:"amit123",
+            email:"raj1@gmail.com",
+            password:"raj123",
             isActive:true
         }
 
