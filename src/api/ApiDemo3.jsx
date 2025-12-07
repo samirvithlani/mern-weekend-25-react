@@ -9,7 +9,7 @@ export const ApiDemo3 = () => {
         const userObj = {
             name:"raj",
             age:23,
-            email:"raj1@gmail.com",
+            email:"raj3@gmail.com",
             password:"raj123",
             isActive:true
         }
@@ -18,6 +18,7 @@ export const ApiDemo3 = () => {
         try{
         const res = await axios.post("https://node5.onrender.com/user/user",userObj)
         console.log(res.data) // api response..
+        
         alert("user addedd successfully !!")
         }
         catch(err){
