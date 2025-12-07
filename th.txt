@@ -443,5 +443,7 @@ POST : https://node5.onrender.com/user/login
 redirect :hook react-router-dom
 useNavigate()
 
+useRef: to access dom element directly without refreshing page we can useUse ref..
+obj = useRef(initalvalue)
 
 
