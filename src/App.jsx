@@ -44,6 +44,7 @@ import { UpdateUser } from "./api/UpdateUser";
 import { UseEffectDemo1 } from "./components/UseEffectDemo1";
 import { Login } from "./components/Login";
 import { Slide, ToastContainer } from "react-toastify";
+import { ApiDemo5 } from "./api/ApiDemo5";
 //import './App.css'
 
 function App() {
@@ -90,6 +91,7 @@ function App() {
         <Route path="/apidemo2" element={<ApiDemo2 />}></Route>
         <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
         <Route path="/apidemo4" element={<ApiDemo4 />}></Route>
+        <Route path="/apidemo5" element={<ApiDemo5 />}></Route>
         <Route path="/updateUser/:id" element={<UpdateUser />}></Route>
         <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
         <Route path="/searchmovie" element={<OmdbApi />}></Route>

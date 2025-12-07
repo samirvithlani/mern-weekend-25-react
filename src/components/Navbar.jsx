@@ -115,6 +115,11 @@ export const Navbar = (props) => {
                 API DEMO 4
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/apidemo5">
+                API DEMO 5
+              </Link>
+            </li>
 
             <li class="nav-item">
               <Link class="nav-link" to="/useeffectdemo">
