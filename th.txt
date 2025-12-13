@@ -446,4 +446,23 @@ useNavigate()
 useRef: to access dom element directly without refreshing page we can useUse ref..
 obj = useRef(initalvalue)
 
+----------->virtual dom
+vdom is copy of actual dom
 
+useState --> change
+1
+2
+3
+4
+44
+5
+6
+7
+8
+9
+10
+
+-->original dom :-->
+
+rerender:
+whenever any changes happed with state variable or props component will rerender...

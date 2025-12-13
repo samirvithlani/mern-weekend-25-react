@@ -132,6 +132,12 @@ export const Navbar = (props) => {
                 useeffectdemo
               </Link>
             </li>
+            
+            <li class="nav-item">
+              <Link class="nav-link" to="/usememodemo">
+                usememodemo
+              </Link>
+            </li>
             <li class="nav-item">
               <Link class="nav-link" to="/login">
                 login
