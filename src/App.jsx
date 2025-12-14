@@ -48,6 +48,7 @@ import { ApiDemo5 } from "./api/ApiDemo5";
 import { UseRefDemo1 } from "./components/UseRefDemo1";
 import { UseRefDemo2 } from "./components/UseRefDemo2";
 import { UseMemoDemo } from "./components/UseMemoDemo";
+import { FindBomb } from "./components/FindBomb";
 //import './App.css'
 
 function App() {
@@ -101,6 +102,7 @@ function App() {
         <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
         <Route path="/searchmovie" element={<OmdbApi />}></Route>
         <Route path="/moviedetail/:id" element={<MovieDetail />}></Route>
+        <Route path="/findbomb" element = {<FindBomb/>}></Route>
         <Route path="/login" element={<Login />}></Route>
       </Routes>
     </div>

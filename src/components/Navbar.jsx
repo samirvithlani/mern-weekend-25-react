@@ -138,6 +138,12 @@ export const Navbar = (props) => {
                 usememodemo
               </Link>
             </li>
+            
+            <li class="nav-item">
+              <Link class="nav-link" to="/findbomb">
+                findbomb
+              </Link>
+            </li>
             <li class="nav-item">
               <Link class="nav-link" to="/login">
                 login
