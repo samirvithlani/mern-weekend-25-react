@@ -466,3 +466,30 @@ useState --> change
 
 rerender:
 whenever any changes happed with state variable or props component will rerender...
+
+component based -->
+parent -->child
+parent -> cchild --> props
+
+problem
+a ->b ->c -->d ...z
+data ----------->z 
+drilling.
+a -->data -->b -->data -->c --->data -->
+
+
+floaw =====================================================================
+      tap     tap          tap ...........................................tap
+
+context api:
+react -->Conept:
+props,context,redux      
+---------------------------------------------------------------------------
+
+3 fl...
+grand --> uncle -->uncle -->uncle4
+
+
+parking data
+
+

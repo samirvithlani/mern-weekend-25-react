@@ -144,6 +144,12 @@ export const Navbar = (props) => {
                 findbomb
               </Link>
             </li>
+            
+            <li class="nav-item">
+              <Link class="nav-link" to="/students">
+                students
+              </Link>
+            </li>
             <li class="nav-item">
               <Link class="nav-link" to="/login">
                 login
