@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../context/ThemeState";
 
 //props -->property -->it can be any
 export const Navbar = (props) => {
   console.log("navbar props",props)
+
+  const {theme,settheme} = useContext(ThemeContext)
+  console.log(theme)
+
   return (
     <div>
       {props.title}
@@ -25,6 +30,7 @@ export const Navbar = (props) => {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
+            <button onClick={()=>{settheme(theme == "light"?"dark":"light")}}>{theme =="light"?"dark":"light"}</button>
             {/* <li class="nav-item active">
               <Link class="nav-link" to="/netflixhome">
                 NETFLIX Home 

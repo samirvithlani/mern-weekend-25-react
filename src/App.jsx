@@ -50,6 +50,7 @@ import { UseRefDemo2 } from "./components/UseRefDemo2";
 import { UseMemoDemo } from "./components/UseMemoDemo";
 import { FindBomb } from "./components/FindBomb";
 import { Students } from "./components/Students";
+import { ThemeContext } from "./context/ThemeState";
 //import './App.css'
 
 function App() {
@@ -58,55 +59,62 @@ function App() {
   //title = {title}
   //key = {value}
   //key can be any
+
+  const [theme, settheme] = useState("light");
+
   return (
     <div>
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick={false}
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-        transition={Slide}
-      />
-      <Navbar title={title}></Navbar>
+      <ThemeContext.Provider value={{ theme, settheme }}>
+        <div style={{backgroundColor:theme=="light"?"white":"black",color:theme=="light"?"black":"white"}}>
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick={false}
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+            transition={Slide}
+          />
+          <Navbar title={title}></Navbar>
 
-      <Routes>
-        <Route path="/" element={<HomeComponent />}></Route>
-        <Route path="/netflixhome" element={<NetflixHome />}></Route>
-        <Route path="/netflixmovies" element={<NetflixMovies />}></Route>
-        <Route path="/netflixshows" element={<NetflixShows />}></Route>
-        <Route path="/watch/:name" element={<Watch />}></Route>
-        <Route path="/users" element={<Users />}></Route>
-        <Route path="/*" element={<Error404 />}></Route>
-        <Route path="/books" element={<Books />}></Route>
-        <Route path="/tableimpl" element={<TableImpl />}></Route>
-        <Route path="/formdemo1" element={<FormDemo1 />}></Route>
-        <Route path="/formdemo2" element={<FormDemo2 />}></Route>
-        <Route path="/formdemo3" element={<FormDemo3 />}></Route>
-        <Route path="/formdemo4" element={<FormDemo4 />}></Route>
-        <Route path="/formdemo5" element={<FormDemo5 />}></Route>
-        <Route path="/formdemo6" element={<FormDemo6 />}></Route>
-        <Route path="/formdemo7" element={<FormDemo7 />}></Route>
-        <Route path="/apidemo1" element={<ApiDemo1 />}></Route>
-        <Route path="/apidemo2" element={<ApiDemo2 />}></Route>
-        <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
-        <Route path="/apidemo4" element={<ApiDemo4 />}></Route>
-        <Route path="/apidemo5" element={<ApiDemo5 />}></Route>
-        <Route path="/userefdemo1" element = {<UseRefDemo2/>}></Route>
-        <Route path="/usememodemo" element = {<UseMemoDemo/>}></Route>
-        <Route path="/updateUser/:id" element={<UpdateUser />}></Route>
-        <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
-        <Route path="/searchmovie" element={<OmdbApi />}></Route>
-        <Route path="/moviedetail/:id" element={<MovieDetail />}></Route>
-        <Route path="/findbomb" element = {<FindBomb/>}></Route>
-        <Route path="/students" element = {<Students/>}></Route>
-        <Route path="/login" element={<Login />}></Route>
-      </Routes>
+          <Routes>
+            <Route path="/" element={<HomeComponent />}></Route>
+            <Route path="/netflixhome" element={<NetflixHome />}></Route>
+            <Route path="/netflixmovies" element={<NetflixMovies />}></Route>
+            <Route path="/netflixshows" element={<NetflixShows />}></Route>
+            <Route path="/watch/:name" element={<Watch />}></Route>
+            <Route path="/users" element={<Users />}></Route>
+            <Route path="/*" element={<Error404 />}></Route>
+            <Route path="/books" element={<Books />}></Route>
+            <Route path="/tableimpl" element={<TableImpl />}></Route>
+            <Route path="/formdemo1" element={<FormDemo1 />}></Route>
+            <Route path="/formdemo2" element={<FormDemo2 />}></Route>
+            <Route path="/formdemo3" element={<FormDemo3 />}></Route>
+            <Route path="/formdemo4" element={<FormDemo4 />}></Route>
+            <Route path="/formdemo5" element={<FormDemo5 />}></Route>
+            <Route path="/formdemo6" element={<FormDemo6 />}></Route>
+            <Route path="/formdemo7" element={<FormDemo7 />}></Route>
+            <Route path="/apidemo1" element={<ApiDemo1 />}></Route>
+            <Route path="/apidemo2" element={<ApiDemo2 />}></Route>
+            <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
+            <Route path="/apidemo4" element={<ApiDemo4 />}></Route>
+            <Route path="/apidemo5" element={<ApiDemo5 />}></Route>
+            <Route path="/userefdemo1" element={<UseRefDemo2 />}></Route>
+            <Route path="/usememodemo" element={<UseMemoDemo />}></Route>
+            <Route path="/updateUser/:id" element={<UpdateUser />}></Route>
+            <Route path="/useeffectdemo" element={<UseEffectDemo1 />}></Route>
+            <Route path="/searchmovie" element={<OmdbApi />}></Route>
+            <Route path="/moviedetail/:id" element={<MovieDetail />}></Route>
+            <Route path="/findbomb" element={<FindBomb />}></Route>
+            <Route path="/students" element={<Students />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+          </Routes>
+        </div>
+      </ThemeContext.Provider>
     </div>
   );
 }
