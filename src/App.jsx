@@ -51,6 +51,9 @@ import { UseMemoDemo } from "./components/UseMemoDemo";
 import { FindBomb } from "./components/FindBomb";
 import { Students } from "./components/Students";
 import { ThemeContext } from "./context/ThemeState";
+import { TabComponentDemo } from "./components/TabComponentDemo";
+import { MuiDemo1 } from "./mui/MuiDemo1";
+import { MuiDemo2 } from "./mui/MuiDemo2";
 //import './App.css'
 
 function App() {
@@ -112,6 +115,8 @@ function App() {
             <Route path="/findbomb" element={<FindBomb />}></Route>
             <Route path="/students" element={<Students />}></Route>
             <Route path="/login" element={<Login />}></Route>
+            <Route path="/tabcomponent" element ={<TabComponentDemo/>}></Route>
+            <Route path="/muidemo1" element= {<MuiDemo2/>}></Route>
           </Routes>
         </div>
       </ThemeContext.Provider>

@@ -493,3 +493,37 @@ grand --> uncle -->uncle -->uncle4
 parking data
 
 
+netflix:
+select profile:-->
+
+
+profile: 3 profile display:
+select prfoilt ->component -->profile...
+
+MUI matrial ui:
+redux:
+charts
+grpahs
+
+-----------------------------
+bootstrap   : taiwind :  mui
+old school  : fancy ui : clean -->
+
+taiwind    mui
+pure css  component
+
+mui Task:
+rating : Hover feedback
+
+slider:
+create any slider:
+
+useState --> products array: price ...
+
+display slider
+default display all products:
+
+on slider change prodct must display according to slider filter by price
+1000- 10000
+2000------> 1000 to 2000
+

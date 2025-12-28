@@ -156,11 +156,19 @@ export const Navbar = (props) => {
                 students
               </Link>
             </li>
+            
+            <li class="nav-item">
+              <Link class="nav-link" to="/muidemo1">
+                mui demo 1
+              </Link>
+            </li>
+
             <li class="nav-item">
               <Link class="nav-link" to="/login">
                 login
               </Link>
             </li>
+
             
             
           </ul>
