@@ -54,6 +54,8 @@ import { ThemeContext } from "./context/ThemeState";
 import { TabComponentDemo } from "./components/TabComponentDemo";
 import { MuiDemo1 } from "./mui/MuiDemo1";
 import { MuiDemo2 } from "./mui/MuiDemo2";
+import { MuiDataGridDemo } from "./mui/MuiDataGridDemo";
+import { MuiDataGridDemo2 } from "./mui/MuiDataGridDemo2";
 //import './App.css'
 
 function App() {
@@ -117,6 +119,7 @@ function App() {
             <Route path="/login" element={<Login />}></Route>
             <Route path="/tabcomponent" element ={<TabComponentDemo/>}></Route>
             <Route path="/muidemo1" element= {<MuiDemo2/>}></Route>
+            <Route path="/muidatagrid" element = {<MuiDataGridDemo2/>}></Route>
           </Routes>
         </div>
       </ThemeContext.Provider>
